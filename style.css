@@ -1,0 +1,180 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#mainHeader{
+    margin: 10px 30px;
+    display: flex;
+    justify-content: flex-end;
+    width: 900px;
+   
+  
+}
+
+#usersListSection{
+    margin-inline: 30px;
+}
+
+
+
+
+#mainHeader svg{
+    height: 30px;
+    width:30px;
+}
+
+
+#usersList{
+    display: flex;
+
+    border: 1px solid black;
+    padding: 20px ;
+    border-radius: 16px;
+   
+        display: flex;
+        justify-content: center; /* Add this line to horizontally center the div */
+        align-items: center;
+        margin-inline: 30px;
+      
+      
+}
+
+
+#usersList  , .user-Item{
+list-style: none;
+display: flex;
+width: 100%;
+justify-content: space-between;
+gap: 16px;
+align-items: center; 
+
+
+}
+
+
+#usersList   .user-Item .user-Content{
+    flex: 1;
+}
+
+
+#usersList   .user-Item .user-Content  .primary-Content{
+    font-weight: bold;
+}
+
+#usersList   .user-Item .user-Content  .secondary-Content{
+    font-size: 14px;
+    color: gray;
+}
+
+
+#usersList   .user-Item .user-Message-button{
+    height: 40px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+
+    background-color: transparent;
+    
+    outline: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+
+#usersList   .user-Item .user-Message-button :hover{
+   border: 1px solid black;
+   border-radius: 16px;
+}
+
+#usersList   .user-Item     .user-Image{
+    border-radius: 50px;
+    
+}
+
+
+.userty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 300px; /* Adjust the maximum width as per your requirement */
+  padding: 10px; /* Add padding to create space within the div */
+  margin: 10px; /* Add margin to create space around the div */
+  border: 1px solid black;
+  border-radius: 16px;
+  gap: 10px; /* Reduce the gap between elements */
+  margin-left: 400px;
+}
+
+  
+  .userImage2 {
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    flex-grow: 1;
+  
+
+    gap: 20px;
+  }
+  
+  .copyButton {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .copyButton:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .copyButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #f1f1f1;
+  }
+
+  h2{
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+p{
+    flex-grow: 1;
+    border-radius: 16px;
+    gap: 20px;
+}
+  
+   
+
+.userContact {
+    white-space: nowrap;
+
+  }
+
+  .reload{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+  
+
+   
